@@ -1,0 +1,43 @@
+.the-table {
+    background-color: #004b00;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 24px 0px;
+    border: 3px solid darkgoldenrod;
+    box-shadow: 2px 2px 8px black;
+}
+
+.card {
+    color: black;
+    background-color: white;
+    height: 120px;
+    background: url('../images/cards.gif') -1px 724px;
+    background-size: 1122px 604px;
+}
+
+.col-sm-2.card {
+    width: 11%;
+    margin: 10px;
+}
+
+.card-empty {
+    background: #ddd;
+    border: dashed 1px black;
+}
+
+.dealer-total-wrapper, .player-total-wrapper {
+    color: white;
+    font-size: 16px;
+}
+
+.dealer-total-wrapper span, .player-total-wrapper span{
+    display: block;
+    text-align: center;
+}
+
+.action-buttons button {
+    width: 100%;
+    background-color: darkred;
+    color: white;
+    box-shadow: 2px 2px 5px black;
+}
