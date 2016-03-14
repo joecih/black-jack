@@ -25,15 +25,15 @@
     border: dashed 1px black;
 }
 
-.dealer-total-wrapper, .player-total-wrapper {
+/*.dealer-total-wrapper, .player-total-wrapper {
     color: white;
     font-size: 16px;
-}
+}*/
 
-.dealer-total-wrapper span, .player-total-wrapper span{
+/*.dealer-total-wrapper span, .player-total-wrapper span{
     display: block;
     text-align: center;
-}
+}*/
 
 .action-buttons button {
     width: 100%;
