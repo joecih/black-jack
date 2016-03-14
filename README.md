@@ -1,17 +1,17 @@
 
-#### Black-Jack Game using bootsrap & jQuery
+# Black-Jack Game using bootsrap & jQuery
 
 -- A simple black-jack game, well maybe not so simple!
 
-#### App Face
+## App Face
 ![)o( pixBay )]()o( pixBay ) Screenshot!")
 
 ## Instructions:
 ----
 
-#BlackJack game using jQuery, HTML and CSS
+## BlackJack game using jQuery, HTML and CSS
 
-###Setup the table using Bootstrap.
+### Setup the table using Bootstrap.
 
 > Create a dealers hand and players hand to hold the totals.
 Set each card to a custom width (adjust col-sm-2 to 11% to avoid having to write 3 extra divs).
