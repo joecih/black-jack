@@ -11,8 +11,10 @@
     color: black;
     background-color: white;
     height: 120px;
-    background: url('../images/cards.gif') -1px 724px;
+    background: url('../images/cards.gif');
     background-size: 1122px 604px;
+    background-repeat: no-repeat;
+    background-position: -1px -484px;
 }
 
 .col-sm-2.card {
@@ -25,19 +27,22 @@
     border: dashed 1px black;
 }
 
-/*.dealer-total-wrapper, .player-total-wrapper {
-    color: white;
-    font-size: 16px;
-}*/
-
-/*.dealer-total-wrapper span, .player-total-wrapper span{
-    display: block;
-    text-align: center;
-}*/
+.totals {
+    width: 100px;
+}
+.totals span {
+    font-size: 20px;
+}
 
 .action-buttons button {
     width: 100%;
     background-color: darkred;
     color: white;
     box-shadow: 2px 2px 5px black;
+}
+
+#message {
+    font-size: 40px;
+    color: white;
+    padding-top: 10px;
 }
