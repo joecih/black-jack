@@ -15,10 +15,11 @@
     background-size: 1122px 604px;
     background-repeat: no-repeat;
     background-position: -1px -484px;
+    text-align: center;
 }
 
 .col-sm-2.card {
-    width: 11%;
+    width: 85px;
     margin: 10px;
 }
 
@@ -27,22 +28,42 @@
     border: dashed 1px black;
 }
 
-.totals {
-    width: 100px;
-}
+/*.totals {
+    width: 250px;
+}*/
 .totals span {
     font-size: 20px;
+    height: 20px;
 }
 
 .action-buttons button {
-    width: 100%;
+    width: 80%;
     background-color: darkred;
     color: white;
-    box-shadow: 2px 2px 5px black;
 }
 
 #message {
     font-size: 40px;
     color: white;
-    padding-top: 10px;
+}
+
+.reset {
+    margin-left: 32px;
+}
+.reset button {
+    color: black;
+}
+
+button {
+    box-shadow: 2px 2px 5px black;
+    border: 2px solid white !important;
+}
+
+.panel {
+    margin-top: 14px;
+}
+
+.notify {
+    height: 100px;
+    padding: 25px; 
 }
